@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct Prompts_SwiftUIApp: App {
+    
+    @StateObject var appNavigator: AppNavigator = AppNavigator()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
+                .environmentObject(appNavigator)
         }
     }
 }

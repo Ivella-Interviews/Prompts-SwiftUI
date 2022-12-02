@@ -11,6 +11,14 @@
 		D5B4BA852939F1F100EC9584 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BA842939F1F100EC9584 /* ContentView.swift */; };
 		D5B4BA872939F1F200EC9584 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B4BA862939F1F200EC9584 /* Assets.xcassets */; };
 		D5B4BA8B2939F1F200EC9584 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B4BA8A2939F1F200EC9584 /* Preview Assets.xcassets */; };
+		D5B4BA932939F30100EC9584 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BA922939F30100EC9584 /* Network.swift */; };
+		D5B4BA952939F31500EC9584 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BA942939F31500EC9584 /* Router.swift */; };
+		D5B4BA982939F3B000EC9584 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BA972939F3B000EC9584 /* Extensions.swift */; };
+		D5B4BA9B2939F46E00EC9584 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BA9A2939F46E00EC9584 /* LoginView.swift */; };
+		D5B4BAA12939F51E00EC9584 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BAA02939F51E00EC9584 /* Account.swift */; };
+		D5B4BAA32939F53500EC9584 /* QuestionsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BAA22939F53500EC9584 /* QuestionsPage.swift */; };
+		D5B4BAA52939F74F00EC9584 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BAA42939F74F00EC9584 /* LoginModel.swift */; };
+		D5B4BAA72939FA8200EC9584 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B4BAA62939FA8200EC9584 /* AppNavigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		D5B4BA862939F1F200EC9584 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5B4BA882939F1F200EC9584 /* Prompts_SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Prompts_SwiftUI.entitlements; sourceTree = "<group>"; };
 		D5B4BA8A2939F1F200EC9584 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5B4BA922939F30100EC9584 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		D5B4BA942939F31500EC9584 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		D5B4BA972939F3B000EC9584 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D5B4BA9A2939F46E00EC9584 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D5B4BAA02939F51E00EC9584 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		D5B4BAA22939F53500EC9584 /* QuestionsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsPage.swift; sourceTree = "<group>"; };
+		D5B4BAA42939F74F00EC9584 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		D5B4BAA62939FA8200EC9584 /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,11 @@
 		D5B4BA812939F1F100EC9584 /* Prompts SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D5B4BA9F2939F50A00EC9584 /* Stores */,
+				D5B4BA9C2939F4AB00EC9584 /* Models */,
+				D5B4BA992939F46500EC9584 /* Views */,
+				D5B4BA962939F3A600EC9584 /* Extensions */,
+				D5B4BA912939F2EC00EC9584 /* Networking */,
 				D5B4BA822939F1F100EC9584 /* Prompts_SwiftUIApp.swift */,
 				D5B4BA842939F1F100EC9584 /* ContentView.swift */,
 				D5B4BA862939F1F200EC9584 /* Assets.xcassets */,
@@ -67,6 +88,49 @@
 				D5B4BA8A2939F1F200EC9584 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5B4BA912939F2EC00EC9584 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D5B4BA922939F30100EC9584 /* Network.swift */,
+				D5B4BA942939F31500EC9584 /* Router.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D5B4BA962939F3A600EC9584 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5B4BA972939F3B000EC9584 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D5B4BA992939F46500EC9584 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5B4BA9A2939F46E00EC9584 /* LoginView.swift */,
+				D5B4BAA22939F53500EC9584 /* QuestionsPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5B4BA9C2939F4AB00EC9584 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5B4BAA42939F74F00EC9584 /* LoginModel.swift */,
+				D5B4BAA62939FA8200EC9584 /* AppNavigator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5B4BA9F2939F50A00EC9584 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				D5B4BAA02939F51E00EC9584 /* Account.swift */,
+			);
+			path = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +203,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B4BA9B2939F46E00EC9584 /* LoginView.swift in Sources */,
+				D5B4BA982939F3B000EC9584 /* Extensions.swift in Sources */,
+				D5B4BA952939F31500EC9584 /* Router.swift in Sources */,
+				D5B4BAA72939FA8200EC9584 /* AppNavigator.swift in Sources */,
 				D5B4BA852939F1F100EC9584 /* ContentView.swift in Sources */,
+				D5B4BAA52939F74F00EC9584 /* LoginModel.swift in Sources */,
+				D5B4BAA12939F51E00EC9584 /* Account.swift in Sources */,
 				D5B4BA832939F1F100EC9584 /* Prompts_SwiftUIApp.swift in Sources */,
+				D5B4BA932939F30100EC9584 /* Network.swift in Sources */,
+				D5B4BAA32939F53500EC9584 /* QuestionsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,6 +322,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -287,10 +361,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "vishal.Prompts-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,10 +401,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "vishal.Prompts-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
